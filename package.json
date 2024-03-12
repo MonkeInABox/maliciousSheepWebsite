@@ -14,5 +14,8 @@
     "@metalsmith/markdown": "^1.10.0",
     "jstransformer-handlebars": "^1.2.0",
     "metalsmith": "^2.6.3"
+  },
+  "dependencies": {
+    "@fidian/metalsmith-serve": "^0.2.0"
   }
 }
