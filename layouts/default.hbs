@@ -4,10 +4,20 @@
     <meta charset="utf-8">
     <title>{{ title }}</title>
     <meta name="description" content="{{ description }}" />
-    <style></style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <style>
+        * {
+            font-family: "Ubuntu", sans-serif;
+        }
+        a[href] {
+            background-color: blueviolet;
+            border-radius: 5%;
+            color: antiquewhite;
+        }
+    </style>
 </head>
 <body>
-    <h3><a href="./index.html" style="text-decoration:none">index</a> <a href="./page1.html">page1</a></h3>
+    <h3><a href="./index.html" style="text-decoration:none">index</a> <a href="./notes.html" style="text-decoration:none">page1</a></h3>
     <h1>{{{ title }}}</h1>
     {{{ contents }}}
 </body>

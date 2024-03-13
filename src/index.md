@@ -1,21 +1,13 @@
 ---
-title: Example
-description: This page is just an example.
+title: Home Page
+description: The page for home
 layout: default.hbs
 ---
 
-## Lorem ipsum
+# Home Page!
 
-Dolor sit amet, consectetur __strong__ adipiscing elit. Morbi 
-faucibus, *em* purus at gravida dictum, libero arcu convallis 
-lacus, in commodo libero metus eu nisi. Nullam commodo, neque 
-nec porta placerat, nisi est fermentum augue, vitae gravida 
-[link](./page1.html) tellus sapien sit amet tellus. 
-Aenean non diam orci. Proin quis elit turpis. Suspendisse non 
-diam ipsum.
+Welcome to my Home Page!
+Visit the links at the top of the page for more, otherwise look below:
 
-### Suspendisse nec ullamcorper odio.
-
-- Vestibulum arcu mi, sodales non suscipit id.
-- Sed ac sem sit amet arcu malesuada fermentum.
-- Nunc sed.
+## Other Silly Pages by Sillies:
+- [Gnomelandia](https://saltyschnauzer.github.io/evilwebsite/)
