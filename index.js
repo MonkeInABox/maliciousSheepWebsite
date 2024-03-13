@@ -2,7 +2,8 @@
 const Metalsmith  = require('metalsmith'),
     markdown    = require('@metalsmith/markdown'),
     layouts     = require('@metalsmith/layouts'),
-    serve       = require("@fidian/metalsmith-serve");
+    serve       = require("@fidian/metalsmith-serve"),
+    when = require('metalsmith-if');
     
 const isProduction = process.env.NODE_ENV == 'production';
 
