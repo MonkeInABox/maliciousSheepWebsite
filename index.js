@@ -22,7 +22,6 @@ Metalsmith(__dirname)
     // properties as template variables.
     .use(layouts())
     .use(when(!isProduction, serve()))
-    .use(serve())
     // And tell Metalsmith to fire it all off.
     .build(function(err, files) {
         if (err) { throw err; }
