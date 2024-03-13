@@ -16,6 +16,7 @@
     "metalsmith": "^2.6.3"
   },
   "dependencies": {
-    "@fidian/metalsmith-serve": "^0.2.0"
+    "@fidian/metalsmith-serve": "^0.2.0",
+    "metalsmith-if": "^1.0.0"
   }
 }
