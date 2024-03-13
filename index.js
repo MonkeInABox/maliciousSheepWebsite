@@ -3,7 +3,8 @@ const Metalsmith  = require('metalsmith'),
     markdown    = require('@metalsmith/markdown'),
     layouts     = require('@metalsmith/layouts'),
     serve       = require("@fidian/metalsmith-serve");
-
+    
+const isProduction = process.env.NODE_ENV == 'production';
 
 // Run Metalsmith in the current directory.
 // When the .build() method runs, this reads
@@ -20,6 +21,7 @@ Metalsmith(__dirname)
     // into our template, using the Frontmatter
     // properties as template variables.
     .use(layouts())
+    .use(when(!isProduction, serve()))
     .use(serve())
     // And tell Metalsmith to fire it all off.
     .build(function(err, files) {
