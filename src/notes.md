@@ -1,6 +1,6 @@
 ---
-title: Example
-description: This page is just an example.
+title: Notes
+description: Uni Notes
 layout: default.hbs
 ---
 # Notes
