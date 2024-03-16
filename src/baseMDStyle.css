@@ -1,0 +1,27 @@
+html {
+    font-family: "Ubuntu", sans-serif;
+    margin: 2%;
+    background-color: rgb(31, 36, 37);
+}
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: rgb(31, 36, 37);
+    color: orange;
+}
+h1 {
+    font-weight: bold;
+    margin-top: 3%;
+}
+button.btn {
+    background-color: rgb(150, 131, 168) !important;
+    transition: 0.25s;
+    margin-right: 1%;
+    height: 7vh !important;
+}
+button:hover {
+    cursor: grab;
+    background-color: rgb(62, 49, 74) !important;
+    box-shadow: 2px;
+    height: 8.5vh !important;
+    rotate: 7.5deg;
+}
