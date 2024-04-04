@@ -28,8 +28,7 @@ button:hover {
     rotate: 7.5deg !important;
 }
 img {
-    width: 100vh;
-    image-resolution: 3dpi;
+    width: 80vh;
 }
 div.downMore {
     text-align: center;
