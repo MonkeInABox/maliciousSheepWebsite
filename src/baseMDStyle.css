@@ -15,16 +15,20 @@ h1 {
     font-weight: bold;
     margin-top: 3%;
 }
-button.btn {
-    background-color: rgb(150, 131, 168) !important;
-    transition: 0.25s;
-    height: 7vh !important;
-    margin-right: 2vw;
-    width: max-content !important;
+a {
+    color: rgb(150, 131, 168) !important;
+    transition: 0.25s !important;
+    font-size: larger !important;
 }
-button:hover {
-    cursor: grab;
-    background-color: rgb(62, 49, 74) !important;
+a.navbar-brand{
+    font-size:x-large !important;
+}
+nav{
+    background-color:  rgb(31, 36, 37) !important;
+}
+a:hover {
+    cursor: grab !important;
+    color: rgb(185, 173, 197) !important;
     rotate: 7.5deg !important;
 }
 img {

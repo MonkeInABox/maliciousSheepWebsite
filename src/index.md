@@ -8,5 +8,5 @@ layout: default.hbs
 
 @MonkeInABox: ~/index.html/more> Visit the links at the top of the page for more, otherwise look below:
 
-@MonkeInABox: ~/index.html/more>
+@MonkeInABox: ~/index.html/more> How in shmungus' name did you find your way here...I assume I led you here. Huh.
 
