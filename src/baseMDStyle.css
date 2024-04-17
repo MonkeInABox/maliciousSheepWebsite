@@ -1,10 +1,12 @@
 html {
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Ubuntu Mono", monospace;
     margin: 2%;
     background-color: rgb(31, 36, 37);
+    margin: 4%;
+    margin-top: 1%;
 }
 body {
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Ubuntu Mono", monospace;
     background-color: rgb(31, 36, 37);
     color: orange;
 }
@@ -14,6 +16,7 @@ div.content {
 h1 {
     font-weight: bold;
     margin-top: 3%;
+    font-size: 300%;
 }
 a {
     color: rgb(150, 131, 168) !important;
@@ -22,6 +25,7 @@ a {
 }
 a.navbar-brand{
     font-size:x-large !important;
+    font-weight: bold;
 }
 nav{
     background-color:  rgb(31, 36, 37) !important;
@@ -33,6 +37,10 @@ a:hover {
 }
 img {
     width: 80vh;
+}
+div{
+    font-weight: bold; 
+    font-size: larger;
 }
 div.downMore {
     text-align: center;
