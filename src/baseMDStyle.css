@@ -5,6 +5,9 @@ html {
     margin: 4%;
     margin-top: 1%;
 }
+a{
+    text-decoration: none;
+}
 body {
     font-family: "Ubuntu Mono", monospace;
     background-color: rgb(31, 36, 37);
@@ -24,7 +27,7 @@ a {
     font-size: larger !important;
 }
 a.navbar-brand{
-    font-size:x-large !important;
+    font-size:xx-large !important;
     font-weight: bold;
 }
 nav{
@@ -33,10 +36,14 @@ nav{
 a:hover {
     cursor: grab !important;
     color: rgb(185, 173, 197) !important;
-    rotate: 7.5deg !important;
+    rotate: 367.5deg !important;
 }
 img {
     width: 80vh;
+    transition: 0.25s;
+}
+img:hover {
+    width: 90vh;
 }
 div{
     font-weight: bold; 
