@@ -24,19 +24,19 @@ a {
     color: rgb(150, 131, 168) !important;
     transition: 0.25s !important;
     font-size: larger !important;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 a.navbar-brand{
     font-size:xx-large !important;
     font-weight: bold;
-}
-a.nav-link:hover {
-    text-decoration: underline;
 }
 nav{
     padding-left: 4% !important;
     background-color:  rgba(31, 36, 37, 0.215) !important;
     margin: -12.5%;
     margin-bottom: 0%;
+    padding-bottom: 0% !important;
     margin-top: -1.5%;
 }
 a:hover {
