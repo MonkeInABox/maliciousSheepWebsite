@@ -48,8 +48,9 @@ img {
     width: 80vh;
     transition: 0.25s;
 }
+
 img:hover {
-    width: 50vw;
+    width: 5vw;
 }
 div{
     font-weight: bold; 
@@ -61,10 +62,9 @@ div.downMore {
     position: sticky;
     padding:1.5%;
     bottom: 3vh;
-    left: 95vw;
+    left: 97vw;
     width:fit-content;
-    margin: 2vh;
-    background-color: orange;
+    margin: -2vh;
     color: black;
     border-radius: 1dvw;
 }
