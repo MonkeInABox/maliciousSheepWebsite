@@ -4,7 +4,7 @@ description: Uni Notes
 layout: default.hbs
 ---
 
-<a class="nav-link" href="notes.html">cd -</a>
+<a class="link" href="./notes.html">cd -</a>
 
 >Written by Jeremy Butson 2024 based on UWA CITS3403 Lecture Notes
 
