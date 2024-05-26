@@ -6,5 +6,4 @@ layout: default.hbs
 
 This should *eventually* have my notes from uni on it...
 
-## Units:
-- 
+@MonkeInABox: ~/notes.html/CITS3403> [Full Notes Here](./cits3403notes.html)
